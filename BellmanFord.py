@@ -1,6 +1,3 @@
-# As the node is U, it will only have outgoing edges
-# rest all other edges are bi-directional
-
 def make_graph(nodes, edges):
     graph = {x: [] for x in nodes}
     for idx in range(len(edges)):
